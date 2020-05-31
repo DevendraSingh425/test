@@ -1,42 +1,3 @@
-[INFO] Scanning for projects...
-[WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.inn.tribe:tribe-core:jar:1.0
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.json:json:jar -> duplicate declaration of version 20180813 @ com.inn.tribe:tribe-core:[unknown-version], /home/ist/Desktop/lib_info/TribeRestfullIntegrationWithSplitedJar/tribe-core/pom.xml, line 273, column 15
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.ganyo:gcm-server:jar -> duplicate declaration of version 1.0.2 @ com.inn.tribe:tribe-core:[unknown-version], /home/ist/Desktop/lib_info/TribeRestfullIntegrationWithSplitedJar/tribe-core/pom.xml, line 605, column 16
-[WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.inn.tribe:document-management:jar:1.0
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.webjars:swagger-ui:jar -> duplicate declaration of version 3.24.3 @ com.inn.tribe:document-management:[unknown-version], /home/ist/Desktop/lib_info/TribeRestfullIntegrationWithSplitedJar/document-management/pom.xml, line 93, column 15
-[WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.inn.tribe:document-management-api:jar:1.0
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.webjars:swagger-ui:jar -> duplicate declaration of version 3.24.3 @ com.inn.tribe:document-management-api:[unknown-version], /home/ist/Desktop/lib_info/TribeRestfullIntegrationWithSplitedJar/document-management-api/pom.xml, line 99, column 15
-[WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.inn.tribe:tribe-app-api:jar:1.0
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.webjars:swagger-ui:jar -> duplicate declaration of version 3.24.3 @ com.inn.tribe:tribe-app-api:[unknown-version], /home/ist/Desktop/lib_info/TribeRestfullIntegrationWithSplitedJar/tribe-app-api/pom.xml, line 83, column 21
-[WARNING] 
-[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
-[WARNING] 
-[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
-[WARNING] 
-[INFO] ------------------------------------------------------------------------
-[INFO] Reactor Build Order:
-[INFO] 
-[INFO] tribe-parent
-[INFO] tribe-core
-[INFO] Notification-api
-[INFO] Notification
-[INFO] document-management-api
-[INFO] document-management
-[INFO] tribe-app-api
-[INFO] tribeWeb
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building tribe-parent 1.0
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-help-plugin:3.2.0:effective-pom (default-cli) @ tribe-parent ---
-[INFO] 
-Effective POMs, after inheritance, interpolation, and profiles are applied:
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ====================================================================== -->
 <!--                                                                        -->
@@ -82385,23 +82346,3 @@ Effective POMs, after inheritance, interpolation, and profiles are applied:
     </reporting>
   </project>
 </projects>
-
-
-[INFO] ------------------------------------------------------------------------
-[INFO] Reactor Summary:
-[INFO] 
-[INFO] tribe-parent ....................................... SUCCESS [  2.396 s]
-[INFO] tribe-core ......................................... SKIPPED
-[INFO] Notification-api ................................... SKIPPED
-[INFO] Notification ....................................... SKIPPED
-[INFO] document-management-api ............................ SKIPPED
-[INFO] document-management ................................ SKIPPED
-[INFO] tribe-app-api ...................................... SKIPPED
-[INFO] tribeWeb ........................................... SKIPPED
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.009 s
-[INFO] Finished at: 2020-05-31T13:51:53+05:30
-[INFO] Final Memory: 50M/502M
-[INFO] ------------------------------------------------------------------------
