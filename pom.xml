@@ -1392,7 +1392,7 @@
       <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <version>8.0.19</version>
+        <version>8.0.28</version>
         <exclusions>
           <exclusion>
             <artifactId>protobuf-java</artifactId>
@@ -10071,7 +10071,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.19</version>
+      <version>8.0.28</version>
       <scope>runtime</scope>
       <exclusions>
         <exclusion>
